@@ -10,3 +10,9 @@ Git Cheat Sheet
                      files in the directory. The `-a` means "all files". You can
                      commit new versions of individual files if you want, but this
                      is not recommended.
+(5)  git diff      : Tell git to show the differences between the files in the working
+                            directory and the last saved version in the git repository. This will
+                            show the differences for all tracked files. Use
+                            `git diff FILENAME` to limit to only the file `FILENAME`
+(6) git checkout main FILENAME : Tell git to revert a file back to the last version of `FILENAME` 
+                                 saved in the repository
