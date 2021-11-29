@@ -23,3 +23,5 @@ Git Cheat Sheet
 (9)  git rm FILENAME : Remove the file `FILENAME` from the working directory (it still exists
                              in the repository). Will only work if the file is tracked by
                              git and doesn't have any changes. Use `-f` to force removal of files. 
+(10) git push      : Push versions that are saved in the local repository (.git folder)
+                             so they are backed up to a remote repository (.git folder)
